@@ -1,0 +1,8 @@
+firewall_steps
+
+1. Opened Windows Defender Firewall via `control firewall.cpl`.
+2. Navigated to Advanced Settings > Inbound Rules.
+3. Created a new inbound rule to block TCP port 23 (Telnet).
+4. Tested the rule using `Test-NetConnection -ComputerName localhost -Port 23` in PowerShell.
+5. Deleted the block rule to restore the original state.
+
