@@ -36,7 +36,7 @@ Firewall Traffic Filtering:
 A firewall filters network traffic by evaluating packets against predefined rules based on attributes like port, protocol, and source/destination IP. In this task, Windows Defender Firewall was configured to block inbound traffic on port 23 (Telnet), preventing unauthorized access to this insecure protocol. This demonstrates how firewalls control network access to enhance security by allowing only permitted connections while blocking potential threats.
 
 Screenshots:
-Initial Rules: screenshots/initial_rules.png
+Initial Rules: screenshots/initial_rules(inbound and outbound firewall).png
 Block Rule Creation: screenshots/block_port23.png
 Test Result: screenshots/test_result.png
 Rule Deletion: screenshots/after_rule_deletion.png
